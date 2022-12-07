@@ -2,7 +2,6 @@
     "name": "elegance/datalayer-sqlite",
     "description": "Manipula conexões com bancos SQLITE",
     "license": "MIT",
-    "minimum-stability": "dev",
     "authors": [
         {
             "name": "André Ricardo",
@@ -21,6 +20,6 @@
     },
     "require": {
         "ext-pdo_sqlite": "*",
-        "elegance/datalayer": "dev-main"
+        "elegance/datalayer": "^1.0"
     }
 }
