@@ -1,0 +1,26 @@
+{
+    "name": "elegance/datalayer-sqlite",
+    "description": "Manipula conexões com bancos SQLITE",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "André Ricardo",
+            "email": "contatoadmx@gamil.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "": "class/"
+        },
+        "files": [
+            "helper/function/normalize.php",
+            "helper/script/datalayer-type.php",
+            "helper/script/env.php"
+        ]
+    },
+    "require": {
+        "ext-pdo_sqlite": "*",
+        "elegance/datalayer": "dev-main"
+    }
+}
