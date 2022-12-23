@@ -113,7 +113,7 @@ trait SqliteExecuteSchemeQueryTrait
     {
         return [
             prepare(
-                "DROP TABLE [#]",
+                "DROP TABLE `[#]`",
                 $table
             )
         ];
